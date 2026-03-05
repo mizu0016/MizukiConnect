@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+android {
+    namespace 'com.mizuki.connect'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.mizuki.connect"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
